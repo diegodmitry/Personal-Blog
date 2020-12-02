@@ -1,0 +1,36 @@
+.l-body {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas: "hd hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn mn mn mn"
+    "ft ft ft ft ft ft ft ft ft ft";
+}
+
+.l-hd {
+    grid-area: hd;
+}
+
+.l-main {
+    grid-area: mn;
+}
+
+.l-footer {
+    grid-area: ft;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 3.2%;
+}
+
+/* problema */
+.l-text {
+    grid-column: 4 / 8;
+}
+
+.l-aside {
+    grid-column: 9 / 10;    
+}
+
